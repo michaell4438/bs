@@ -68,7 +68,7 @@ def generate():
     config.getTemplate()
     config.askTemplateQuestions()
 
-commands = {"create": generate, "exec": None}
+commands = {"create": generate}
 
 if __name__ == "__main__":
     str_commands = commands.keys().__str__().split("(")[1].split(")")[0]
