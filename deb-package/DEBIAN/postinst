@@ -1,0 +1,5 @@
+#!/bin/sh
+
+chmod a+x /usr/bs-dir/bs
+chmod a+x /usr/bin/bs
+exit 0
