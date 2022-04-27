@@ -57,3 +57,5 @@ In order to add a template to BS, there are two steps:
  2. In `bs.py`, or whatever you may have renamed it to, edit the variable `language_choices` at the top of the file to reflect the name of the directory that it was placed in. In my example above, I would call it `my-template`
 
 _If you compiled bs.py to an executable, you may need to rebuild it. This may be changed in a future release._
+
+If you want it added to the global BS repo, create a pull request or send me an email: michael@lachut.com
