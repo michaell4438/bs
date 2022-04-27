@@ -7,6 +7,15 @@ Use `--help` to list commands
 Currently, there is only one template, however there will be more being added, and you can contribute your own.
 You can add bs.py to your path to use anywhere.
 
+## Installation:
+
+There are a few options for installation:
+ 1. Install the source code manually
+ 2. (Install the .deb file found under the `Releases` section)[https://github.com/michaell4438/bs/releases]
+
+If you want to build the dev manually, just execute the `build-deb` script.
+A pip release is on the way.
+
 ## Making Templates
 
 To make templates, there is a syntax that they must follow:
