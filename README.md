@@ -14,7 +14,7 @@ There are a few options for installation:
  2. (Install the .deb file found under the `Releases` section)[https://github.com/michaell4438/bs/releases]
 
 If you want to build the dev manually, just execute the `build-deb` script.
-A pip release is on the way.
+An apt repository is on the way.
 
 ## Making Templates
 
