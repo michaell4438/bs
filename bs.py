@@ -2,6 +2,8 @@
 import argparse
 import os
 
+language_choices = ["python"]
+
 class BSConfigData():
     name: str
     lang: str
@@ -59,7 +61,6 @@ def generate():
     print("Creating bs project in this directory")
     print("General Information")
     name = input("--- Project name: ")
-    language_choices = ["python"]
     lang = ""
     while lang not in language_choices:
         print("Language choices: " + str(language_choices))
