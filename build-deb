@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cp -r templates deb-package/usr/bs-dir/
-dpkg-deb --build deb-package
-mv ./deb-package.deb ./bs.deb

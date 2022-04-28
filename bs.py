@@ -71,7 +71,7 @@ def generate():
 
 commands = {"create": generate}
 
-if __name__ == "__main__":
+def main():
     str_commands = commands.keys().__str__().split("(")[1].split(")")[0]
     parser = argparse.ArgumentParser(prog="bs", description="A wrapper for make", usage="bs (command) [flags]", add_help=True)
     parser.add_argument("command", type=str, nargs=1, help="The command to execute. Possible commands are " + str_commands, choices=commands.keys(), metavar="command")
@@ -79,3 +79,6 @@ if __name__ == "__main__":
 
     chosen_command = args.command[0]
     commands[chosen_command]()
+
+if __name__ == "__main__":
+    main()
