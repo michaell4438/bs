@@ -11,10 +11,14 @@ You can add bs.py to your path to use anywhere.
 
 There are a few options for installation:
  1. Install the source code manually
- 2. (Install the .deb file found under the `Releases` section)[https://github.com/michaell4438/bs/releases]
+ 2. Use the PPA
 
-If you want to build the dev manually, just execute the `build-deb` script.
-An apt repository is on the way.
+### PPA Instructions
+
+```bash
+sudo add-apt-repository ppa:ml4438/bs
+sudo apt-get update
+```
 
 ## Making Templates
 
