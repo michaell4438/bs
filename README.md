@@ -7,6 +7,15 @@ Use `--help` to list commands
 Currently, there is only one template, however there will be more being added, and you can contribute your own.
 You can add bs.py to your path to use anywhere.
 
+## Installation:
+
+There are a few options for installation:
+ 1. Install the source code manually
+ 2. (Install the .deb file found under the `Releases` section)[https://github.com/michaell4438/bs/releases]
+
+If you want to build the dev manually, just execute the `build-deb` script.
+An apt repository is on the way.
+
 ## Making Templates
 
 To make templates, there is a syntax that they must follow:
@@ -48,3 +57,5 @@ In order to add a template to BS, there are two steps:
  2. In `bs.py`, or whatever you may have renamed it to, edit the variable `language_choices` at the top of the file to reflect the name of the directory that it was placed in. In my example above, I would call it `my-template`
 
 _If you compiled bs.py to an executable, you may need to rebuild it. This may be changed in a future release._
+
+If you want it added to the global BS repo, create a pull request or send me an email: michael@lachut.com
