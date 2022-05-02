@@ -1,9 +1,0 @@
-Package: bs
-Version: 1.0.0
-Architecture: all
-Priority: optional
-Depends: python3
-Maintainer: michael@lachut.com
-Homepage: https://github.com/michaell4438/bs
-Description: BS Templates for Make
- A quick template creator for Make, with templates submitted by the community
