@@ -18,6 +18,7 @@ There are a few options for installation:
 ```bash
 sudo add-apt-repository ppa:ml4438/bs
 sudo apt-get update
+sudo apt install bs
 ```
 
 ## Making Templates
